@@ -1,0 +1,16 @@
+$color: purple;
+
+.para-1 {
+    background: yellow;
+    color: $color;
+}
+.para-2 {
+    background: red;
+    color: $color;
+}
+
+.container {
+    @extend %para-1 !optional;
+    font-weight: bold;
+    color: $color;
+}
